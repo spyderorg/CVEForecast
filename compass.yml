@@ -1,0 +1,17 @@
+name: CVEForecast
+id: ari:cloud:compass:89436501-45fd-498f-9c7c-b0db10b968cb:component/d819e7ce-7ec1-48ae-b718-cb3459fc6e06/cbed022c-6685-4927-a3d7-f2d04a64152d
+description: CVE Forecast
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/spyderorg/CVEForecast
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+  - synced-with-jsm
+customFields: null
